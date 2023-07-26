@@ -1,0 +1,97 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+}
+
+header {
+	background-color: #2C3E50;
+	color: #fff;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+h1{
+	display:inline;}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-right: 10px;
+	font: size 16px;;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* estilo de la barra del menu */
+.menu-icon{
+	margin: 10px 85%;
+	position: absolute;
+	z-index: 10;
+	display: flex;
+	top:0;
+}
+
+.menu-icon i{
+	vertical-align: top;
+	width: 40px;
+	cursor: pointer;
+    color: #E74C3C;
+}
+
+.menu{
+	background: #F39C12;
+	box-shadow: 2px 0px 5px 2px #666;
+	width: 80%;
+	height:500px;
+	position: absolute;
+	top: 57px;
+	left: 0;
+	transition: all, 0.5s ease;
+}
+
+/* estilo por agregar en js */
+.activar{
+	transform: translate(-600px);
+}
+.opacity{
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: all .5s ease;
+}
+
+
+/* estilo para la lista del menu */
+.menu ul{
+	padding: 100px 0px 20px 0px;
+	list-style:none;
+}
+
+.menu ul li{
+	color: white;
+	display: block;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 10px 50px;
+	cursor: pointer;
+}
+
+.menu ul li:hover{
+	background: rgba(0, 0, 0, 0.200);
+}
